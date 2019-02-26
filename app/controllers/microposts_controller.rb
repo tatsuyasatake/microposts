@@ -31,11 +31,5 @@ class MicropostsController < ApplicationController
     unless @micropost
       redirect_to root_url
     end
-  end
-
-  private
-
-  def micropost_params
-    params.require(:micropost).permit(:content)
-  end
+  end  
 end
