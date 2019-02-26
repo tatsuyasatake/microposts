@@ -32,7 +32,6 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -60,5 +59,3 @@ gem 'pry-byebug', group: :development
 group :production do
   gem 'pg', '0.21.0'
 end
-
-gem 'pg', group: :production
